@@ -13,5 +13,9 @@ struct SyncUIApp: App {
         WindowGroup {
             ContentView()
         }
+        // タイトルバーをコンテンツと一体化し，没入感のある広いウィンドウにする
+        .windowStyle(.hiddenTitleBar)
+        .windowResizability(.contentMinSize)
+        .defaultSize(width: 1200, height: 820)
     }
 }

@@ -1,0 +1,21 @@
+# Xcode
+xcuserdata/
+*.xcuserdatad
+build/
+DerivedData/
+*.moved-aside
+*.xcuserstate
+
+# Scratch / Temp
+*.tmp
+*.txt
+call_claude.py
+
+# CocoaPods / SwiftPM
+Pods/
+.build/
+
+# macOS
+.DS_Store
+*.swp
+*~
